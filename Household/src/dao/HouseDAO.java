@@ -1,24 +1,23 @@
 package dao;
 
 import java.io.IOException;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-//コメント
-/**
- * Servlet implementation class House
- */
-@WebServlet("/House")
-public class House extends HttpServlet {
-	private static final long serialVersionUID = 1L;
 
+/**
+ * Servlet implementation class HouseDAO
+ */
+@WebServlet("/HouseDAO")
+public class HouseDAO extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public House() {
+    public HouseDAO() {
         super();
         // TODO Auto-generated constructor stub
     }
