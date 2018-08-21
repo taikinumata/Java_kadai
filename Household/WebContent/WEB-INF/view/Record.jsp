@@ -20,6 +20,10 @@ ArrayList<House> resultList = (ArrayList<House>)request.getAttribute("resultList
 		<input type="submit" value="記入する">
 	</form>
 
+	<form action="/Household/Listservlet" method="get">
+		<p><h3>一覧</h3></p>
+		<input type="submit" value="一覧">
+
 
 </body>
 </html>
