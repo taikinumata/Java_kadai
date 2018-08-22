@@ -15,7 +15,7 @@ ArrayList<House> resultList = (ArrayList<House>)request.getAttribute("resultList
 %>
 <table border="1" align="left">
 <tr>
-<th>記入回数</th>
+<th>No.</th>
 <th>収入</th>
 <th>支出</th>
 </tr>
